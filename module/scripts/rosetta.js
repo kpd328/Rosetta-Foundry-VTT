@@ -1,1 +1,5 @@
-console.log('Started module: Rosetta.');
+function log(message){
+    console.log('Rosetta | ' + message);
+}
+
+log('Starting module');
