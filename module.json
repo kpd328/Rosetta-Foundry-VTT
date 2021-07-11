@@ -23,5 +23,8 @@
     ],
     "scripts": [
         "module/scripts/rosetta.js"
+    ],
+    "styles": [
+        "styles/rosetta.css"
     ]
 }
