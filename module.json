@@ -20,5 +20,8 @@
             "name": "English",
             "path": "lang/en.json"
         }
+    ],
+    "scripts": [
+        "module/scripts/rosetta.js"
     ]
 }
