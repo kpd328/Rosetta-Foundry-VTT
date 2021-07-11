@@ -1,3 +1,6 @@
+/**
+ * The main Rosetta module class.
+ */
 class Rosetta {
     static ID = 'rosetta';
 
@@ -11,7 +14,7 @@ class Rosetta {
 }
 
 Hooks.once('devModeReady', ({ registerPackageDebugFlag }) => {
-    registerPackageDebugFlag(ToDoList.ID);
+    registerPackageDebugFlag(Rosetta.ID);
 });
 
-log(false, 'Starting Module.');
+Rosetta.log(false, 'Starting Module.');
