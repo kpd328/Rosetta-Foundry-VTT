@@ -13,6 +13,18 @@ class Rosetta {
     }
 }
 
+class RosettaData {
+    static get allLangs() {}
+
+    static getLangByID(langId) {}
+
+    static createLang(langData) {}
+
+    static updateLang(langId, updateData) {}
+
+    static deleteLang(langId) {}
+}
+
 /**
  * Register debug flag with developer mode's custom hook
  */
