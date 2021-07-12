@@ -17,7 +17,7 @@ function log(force, ...args) {
             console.log(Rosetta.ID, '|', ...args);
         }
     } catch(e) {
-        console.error("Rosetta | Why is there an error logging?", e, ...args);
+        console.error("Rosetta | Why is there an error logging? | ", ...args , '\n', e);
     }
 }
 
