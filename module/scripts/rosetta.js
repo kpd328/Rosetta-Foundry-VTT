@@ -9,7 +9,7 @@ class Rosetta {
     }
 
     static TEMPLATES = {
-        
+
     }
 }
 
@@ -33,7 +33,7 @@ function log(force, ...args) {
             console.log(Rosetta.ID, '|', ...args);
         }
     } catch(e) {
-        console.error("Rosetta | Why is there an error logging? | ", ...args , '\n', e);
+        console.error("Rosetta | Why is there an error logging? |", ...args , '\n', e);
     }
 }
 
