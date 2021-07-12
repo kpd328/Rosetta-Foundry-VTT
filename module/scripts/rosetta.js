@@ -16,7 +16,9 @@ function log(force, ...args) {
         if (shouldLog) {
             console.log(Rosetta.ID, '|', ...args);
         }
-    } catch(e) {}
+    } catch(e) {
+        console.error("Rosetta | Why is there an error logging?", e, ...args);
+    }
 }
 
 log(false, 'Starting Module.');
