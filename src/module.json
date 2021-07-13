@@ -1,0 +1,20 @@
+{
+  "name": "rosetta",
+  "title": "Rosetta - Language tools for Foundry",
+  "description": "Tool for allowing custom language systems for multiple tabletop games.",
+  "version": "0.0.2",
+  "authors": [
+    {
+      "name": "kpd328",
+      "email": "kyle@kpd328.com",
+      "url": "https://github.com/kpd328"
+    }
+  ],
+  "esmodules": ["rosetta.js"],
+  "styles": ["rosetta.css"],
+  "languages": [],
+  "minimumCoreVersion": "0.5.0",
+  "compatibleCoreVersion": "0.8.8",
+  "url": "https://github.com/kpd328/Rosetta-Foundry-VTT",
+  "bugs": "https://github.com/kpd328/Rosetta-Foundry-VTT/issues"
+}
