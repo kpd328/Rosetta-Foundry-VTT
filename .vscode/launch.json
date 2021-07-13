@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run in browser",
+            "program": "${env:ProgramFiles}/FoundryVTT/resources/app/main.js",
+            "args": ["--world=test-dnd-5e"],
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "outputCapture": "std",
+            "preLaunchTask": "${defaultBuildTask}",
+            "serverReadyAction": {
+              "pattern": "listening on port ([0-9]+)",
+              "uriFormat": "http://localhost:%s",
+              "action": "openExternally"
+            }
+        }
+    ]
+}
